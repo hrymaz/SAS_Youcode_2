@@ -22,7 +22,8 @@
 - [ ] J'ai recherché et compris la notion.
 
 **Ma réponse :**
-
+for est utilisée quand je connais le nombre de répétitions. while est utilisée quand je veux répéter tant qu'une condition est vraie.
+Exemple : for pour afficher les nombres de 1 à 5.
 > À compléter avec mes propres mots.
 
 ---
@@ -34,7 +35,8 @@
 - [ ] J'ai recherché et compris la notion.
 
 **Ma réponse :**
-
+do...while exécute le code au moins une fois. while vérifie la condition avant.
+Exemple : demander un mot de passe au moins une fois avec do...while.
 > À compléter avec mes propres mots.
 
 ---
@@ -46,6 +48,8 @@
 - [ ] J'ai recherché et compris la notion.
 
 **Ma réponse :**
+Si la condition ne change jamais, la boucle continue sans s'arrêter. C'est une boucle infinie.
+Exemple : while (x < 5) sans augmenter x.
 
 > À compléter avec mes propres mots.
 
@@ -58,7 +62,8 @@
 - [ ] J'ai recherché et compris la notion.
 
 **Ma réponse :**
-
+break permet d'arrêter complètement une boucle.
+Exemple : arrêter la boucle quand i vaut 5.
 > À compléter avec mes propres mots.
 
 ---
@@ -70,7 +75,8 @@
 - [ ] J'ai recherché et compris la notion.
 
 **Ma réponse :**
-
+continue permet de passer directement au tour suivant.
+Exemple : ignorer les nombres impairs et afficher seulement les nombres pairs
 > À compléter avec mes propres mots.
 
 ---
@@ -82,7 +88,8 @@
 - [ ] J'ai recherché et compris la notion.
 
 **Ma réponse :**
-
+L'ordre est : initialisation → condition → code → incrémentation.
+Exemple : for (let i = 0; i < 5; i++).
 > À compléter avec mes propres mots.
 
 ---
@@ -94,7 +101,8 @@
 - [ ] J'ai recherché et compris la notion.
 
 **Ma réponse :**
-
+Oui, je peux déclarer la variable avant la boucle.
+Exemple : let i = 0; puis for (i; i < 5; i++).
 > À compléter avec mes propres mots.
 
 ---
@@ -106,7 +114,8 @@
 - [ ] J'ai recherché et compris la notion.
 
 **Ma réponse :**
-
+Oui, je peux déclarer la variable avant la boucle.
+Exemple : let i = 0; puis for (i; i < 5; i++).
 > À compléter avec mes propres mots.
 
 ---
@@ -118,7 +127,8 @@
 - [ ] J'ai recherché et compris la notion.
 
 **Ma réponse :**
-
+Plusieurs boucles imbriquées peuvent ralentir le programme.
+Exemple : 2 boucles de 100 tours donnent déjà 10 000 répétitions.
 > À compléter avec mes propres mots.
 
 ---
@@ -130,7 +140,8 @@
 - [ ] J'ai recherché et compris la notion.
 
 **Ma réponse :**
-
+Oui, on peut utiliser un switch dans une boucle.
+Exemple : une boucle parcourt les jours et un switch affiche le nom du jour.
 > À compléter avec mes propres mots.
 
 
