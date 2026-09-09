@@ -22,3 +22,26 @@
 
 // Découpe d'abord le problème en petites étapes.
 // TODO: écris ta solution ici.
+let codeSecret = 739;
+let essais = 0;
+
+for (let i = 0; i <= 9; i++) {
+
+    for (let j = 0; j <= 9; j++) {
+
+        for (let k = 0; k <= 9; k++) {
+
+            essais++;
+
+            let code = i * 100 + j * 10 + k;
+
+            if (code == codeSecret) {
+                console.log("Code trouvé : " + code);
+                console.log("Nombre d'essais : " + essais);
+            }
+
+        }
+
+    }
+
+}
