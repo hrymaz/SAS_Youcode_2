@@ -25,15 +25,15 @@
 let codeSecret = 739;
 let essais = 0;
 
-for (let i = 0; i <= 9; i++) {
+for (let c1 = 0; c1 <= 9; c1++) {
 
-    for (let j = 0; j <= 9; j++) {
+    for (let c2 = 0; c2 <= 9; c2++) {
 
-        for (let k = 0; k <= 9; k++) {
+        for (let c3 = 0; c3 <= 9; c3++) {
 
             essais++;
 
-            let code = i * 100 + j * 10 + k;
+            let code = c1 * 100 + c2 * 10 + c3;
 
             if (code == codeSecret) {
                 console.log("Code trouvé : " + code);
