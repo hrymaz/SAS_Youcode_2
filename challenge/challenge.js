@@ -33,12 +33,6 @@ for (let c1 = 0; c1 <= 9; c1++) {
 
             essais++;
 
-            let code = c1 * 100 + c2 * 10 + c3;
-
-            if (code == codeSecret) {
-                console.log("Code trouvé : " + code);
-                console.log("Nombre d'essais : " + essais);
-            }
 
         }
 

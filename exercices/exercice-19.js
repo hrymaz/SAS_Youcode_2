@@ -25,12 +25,12 @@ for (let i = 0; i < 8; i++) {
         if ((i + j) % 2 == 0) {
             a += " ";
         } else {
-            a += "*";
+            a = a + "*";
         }
 
     }
 
-    a += "\n";
+    a = a + "\n";
 }
 
 console.log(a);
